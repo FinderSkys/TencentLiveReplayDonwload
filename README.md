@@ -1,6 +1,6 @@
 # TencentLiveReplayDonwload
 
-一个用于自动下载腾讯会议直播回放的工具，支持多线程下载，可快速获取 `.mp4` 视频文件
+一个用于自动下载腾讯会议直播回放的工具，支持多线程下载，可快速获取 .mp4 视频文件
 
 ## 功能特性
 
@@ -32,7 +32,7 @@
 - **Windows 用户**：`msedgedriver.exe`
 - **macOS/Linux 用户**：`msedgedriver`
 
-> 你也可以将驱动文件放置在其他目录，但需要编辑 `config.ini` 文件，将其中的 `edge_driver_path` 设置为驱动程序的 **绝对路径**（建议使用绝对路径）。
+> 你也可以将驱动文件放置在其他目录。此时请编辑配置文件 config.ini，并将其中的参数 edge_driver_path 设置为驱动程序的绝对路径（建议使用绝对路径）。
 
 ## 使用方法
 
@@ -45,7 +45,7 @@ cd TencentLiveReplayDonwload
 
 ### 2. 安装依赖
 
-确保你已安装 Python（开发使用版本3.10.9,未在其他版本验证）：
+确保你已安装 Python（开发使用版本 3.10.9，未在其他版本上验证）：
 
 ```bash
 pip install -r requirements.txt
@@ -67,8 +67,8 @@ https://meeting.tencent.com/crm/2qvZmxpgef
 
 ## 注意事项
 
-- 程序使用 **多线程下载**，若下载过程中出现 `合并校验失败`，请重新下载一次;
-- 若多次尝试仍然失败，请提交 [Issue](https://github.com/FinderSkys/TencentLiveReplayDonwload/issues);
+- 程序使用 **多线程下载**，若下载过程中出现“合并校验失败”，请重新下载一次；
+- 若多次尝试仍然失败，请提交 [Issue](https://github.com/FinderSkys/TencentLiveReplayDonwload/issues)。
 - 请保持网络畅通，避免中断下载。
 
 ## License
